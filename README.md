@@ -34,13 +34,13 @@ O desenvolvimento foi realizado por uma equipe de 10 estudantes, onde cada integ
 <!-- MODELO FUNCIONALIDADES: -->
 ## ⚙️ Funcionalidades
 
-- Página inicial da associação.
-- Apresentação da associação.
-- Exibição de projetos e atividades.
-- Depoimentos de alunos.
-- Galeria de fotos com os projetos.
-- Blog sobre a associação.
-- Área de contato.
+- Página inicial da associação. ( feito por MAxwell e eros)
+- Apresentação da associação. ( feito pelo  Edson e Kauã)
+- Exibição de projetos e atividades. ( feito por Gustavo)
+- Depoimentos de alunos. (feito pelo Rodrigo)
+- Galeria de fotos com os projetos. (feito pelo Matheus e João Medeiros)
+- Blog sobre a associação. (feito pela Esthefany)
+- Área de contato. (Feito pelo João Henrique)
 - Layout responsivo para dispositivos móveis e desktop.
 - Navegação intuitiva e acessível.
 
