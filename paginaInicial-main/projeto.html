@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Nossos Projetos</title> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/projeto.css">
+</head>
+<body>
+  
+
+  <!-- ================================================
+      NAVBAR
+  ================================================ -->
+  <nav id="nav">
+
+    <!-- LOGO -->
+    <div class="logo">
+
+        <img 
+        src="images/Logo ACAEPA .png" 
+        alt="Logo ACAEPA">
+
+    </div>
+
+    <!-- LINKS -->
+    <ul class="nav-links">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="sobre.html">Sobre </a></li>
+        <li><a href="projeto.html">Projetos</a></li>
+        <li><a href="depoimentos.html">Depoimentos</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+    </ul>
+
+    <!-- BOTÃO -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+</nav>
+
+
+  <!-- ========== SEÇÃO COMPLETA DOS PROJETOS ========== -->
+  <section class="projetos-section">
+    
+    <div class="projetos-header">
+      <h2 class="projetos-titulo">Nossos Projetos</h2>
+      <p class="projetos-subtitulo">Conheça as iniciativas que transformam vidas e fortalecem nossa comunidade!</p>
+    </div>
+
+    <!-- BANNER DE INSCRIÇÃO (Idêntico ao Figma) -->
+    <div class="inscricao-banner-figma">
+      <h3>APRENDA UMA PROFISSÃO, COMPLEMENTE SUA RENDA!</h3>
+      <div class="inscricao-card-interno">
+        <h4>Inscrição Simples:</h4>
+        <p>Cópia do RG + Comprovante de Residência</p>
+      </div>
+    </div>
+
+    <p class="interacao-aviso">✨ Clique em qualquer área abaixo para conhecer os detalhes do projeto</p>
+
+    <!-- Grid de Cards -->
+    <div class="projetos-grid">
+
+      <!-- CARD 1: Cursos Profissionalizantes -->
+      <div class="projeto-card card-cursos" onclick="abrirPopup('popup-cursos')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">🎓</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Cursos Profissionalizantes</h3>
+          <p>Capacitação gratuita para o mercado de trabalho e geração de renda rápida.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Capacitação e Autonomia
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 2: Área da Saúde -->
+      <div class="projeto-card card-saude" onclick="abrirPopup('popup-saude')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">❤️</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Atendimento na Área da Saúde</h3>
+          <p>Atendimento integral com profissionais voluntários de diversas especialidades.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Atendimento à Comunidade
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 3: Atividade Física -->
+      <div class="projeto-card card-fisica" onclick="abrirPopup('popup-fisica')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">💪</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Atividade Física</h3>
+          <p>Incentivo à saúde preventiva, bem-estar e combate ao sedentarismo.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Saúde e Qualidade de Vida
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 4: Área da Estética -->
+<div class="projeto-card card-estetica" onclick="abrirPopup('popup-estetica')">
+  
+  <div class="card-icon-wrapper">
+    <span class="card-main-icon">🫦</span>
+  </div>
+
+  <div class="card-conteudo">
+    <h3>Área da Estética</h3>
+
+    <p>
+      Cuidados estéticos e bem-estar promovendo autoestima,
+      inclusão social e geração de renda.
+    </p>
+
+    <div class="card-impacto-tag">
+      <strong>Foco:</strong> Autoestima e Capacitação
+    </div>
+  </div>
+
+  <div class="card-action-bar">
+    Clique para ver detalhes →
+  </div>
+
+</div>
+
+      <!-- CARD 5: Ballet -->
+      <div class="projeto-card card-ballet" onclick="abrirPopup('popup-ballet')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">🩰</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Ballet</h3>
+          <p>Dança e expressão artística promovendo disciplina e cultura para crianças e jovens.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Cultura e Inclusão Social
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 6: Escolinha de Futebol -->
+      <div class="projeto-card card-futebol" onclick="abrirPopup('popup-futebol')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">⚽</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Escolinha de Futebol</h3>
+          <p>Prática esportiva guiada, trabalho em equipe e cidadania através do esporte.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Esporte e Cidadania
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 7: Feira Solidária -->
+      <div class="projeto-card card-feira" onclick="abrirPopup('popup-feira')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">🛍️</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Feira Solidária</h3>
+          <p>Espaço para fomento da economia local, artesanato e apoio mútuo entre moradores.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Economia Local e União
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 8: Páscoa Solidária -->
+      <div class="projeto-card card-pascoa" onclick="abrirPopup('popup-pascoa')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">🐰</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Páscoa Solidária</h3>
+          <p>Ações especiais para levar alegria e acolhimento às famílias na época da Páscoa.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Ação Social e Alegria
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+      <!-- CARD 9: Natal Solidário -->
+      <div class="projeto-card card-natal" onclick="abrirPopup('popup-natal')">
+        <div class="card-icon-wrapper">
+          <span class="card-main-icon">🎄</span>
+        </div>
+        <div class="card-conteudo">
+          <h3>Natal Solidário</h3>
+          <p>Arrecadações de brinquedos, alimentos e celebração de fim de ano para a comunidade.</p>
+          <div class="card-impacto-tag">
+            <strong>Foco:</strong> Solidariedade e Esperança
+          </div>
+        </div>
+        <div class="card-action-bar">Clique para ver detalhes →</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== POP-UPS (MODAIS DE DETALHE) ========== -->
+
+  <!-- Pop-up Cursos -->
+  <div id="popup-cursos" class="popup-overlay" onclick="fecharPopup('popup-cursos')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-cursos')">×</button>
+      <div class="popup-header bg-cursos">
+        <span class="popup-icon">🎓</span>
+        <h2>Cursos Profissionalizantes</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Capacitações gratuitas focadas no mercado de trabalho e empreendedorismo:</p>
+        <ul class="popup-lista-itens">
+          <li>🤟🏽 Libras <span 
+          class="badge-status">Inscrições Abertas</span></li>
+          <li>🧓🏽 Cuidador <span class="badge-status">Inscrições Abertas</span></li>
+          <li>🧼 Artesanato(sabonete, vela e sachês) <span class="badge-status">Inscrições Abertas</span></li>
+          <li> 💈Trancista <span class="badge-status">Inscrições Abertas</span></li>
+          <li>👨🏽‍💼 Formação portaria e Segurança <span class="badge-status">Inscrições Abertas</span></li>
+        </ul>
+        <div class="popup-footer-impacto impact-cursos">
+          <strong>Impacto Real:</strong>
+          <p>Mais de 485 alunos formados, abrindo portas para novos empregos e autonomia financeira.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Saúde -->
+  <div id="popup-saude" class="popup-overlay" onclick="fecharPopup('popup-saude')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-saude')">×</button>
+      <div class="popup-header bg-saude">
+        <span class="popup-icon">❤️</span>
+        <h2>Área da Saúde</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Atendimento completo com profissionais voluntários qualificados para cuidar de você:</p>
+        <ul class="popup-lista-itens">
+          <li>🩺 Nutricionista / Clínico Geral
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>🗣️ Fonoaudiólogo / Psicóloga
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>💪 Fisioterapeuta / Massoterapeuta
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>📍 Acupuntura e Auriculoterapia
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+        </ul>
+        <div class="popup-footer-impacto impact-saude">
+          <strong>Impacto Real:</strong>
+          <p>Atendimento integral e humanizado, garantindo acesso à saúde básica de qualidade.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Atividade Física -->
+  <div id="popup-fisica" class="popup-overlay" onclick="fecharPopup('popup-fisica')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-fisica')">×</button>
+      <div class="popup-header bg-fisica">
+        <span class="popup-icon">💪</span>
+        <h2>Atividade Física</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Iniciativas esportivas gratuitas promovidas para combater o sedentarismo e integrar moradores:</p>
+        <ul class="popup-lista-itens">
+          <li>🏃 Alongamento 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>🧘pilates
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>💃🏽 zumba
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>🩰ballet infantil 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li> 🪩dança de salão 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>⚽ escolinha de futebol
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+        </ul>
+        <div class="popup-footer-impacto impact-fisica">
+          <strong>Impacto Real:</strong>
+          <p>Promoção da saúde preventiva, vitalidade e melhora do convívio social comunitário.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Pop-up area da estetica -->
+  <div id="popup-estetica" class="popup-overlay" onclick="fecharPopup('popup-esetica')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-estetica')">×</button>
+      <div class="popup-header bg-estetica">
+        <span class="popup-icon">🫦</span>
+        <h2>Área da Estetica </h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Tratamentos faciais e corporais focadas na autoestima e saúde da pele:</p>
+        <ul class="popup-lista-itens">
+          <li>💎 Designer de Sobrancelhas
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li> 👄 Hidra gloss
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>💃🏽 Alongamento Cílios
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>🩰 Manicure e Pedicure 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li> 💅🏽 Alongamento de Unhas  
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>👣 Reflexologia podal 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>🪒 depilação 
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+          <li>💎 Estética corporal / facial Automaquiagem
+            <span class="badge-status">Inscrições Abertas</span>
+          </li>
+        </ul>
+        <div class="popup-footer-impacto impact-futebol">
+          <strong>Impacto Real:</strong>
+          <p>Cuidar de si não é vaidade, é um ato de respeito com o único lugar onde você vai morar para sempre: O SEU CORPO.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Ballet -->
+  <div id="popup-ballet" class="popup-overlay" onclick="fecharPopup('popup-ballet')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-ballet')">×</button>
+      <div class="popup-header bg-ballet">
+        <span class="popup-icon">🩰</span>
+        <h2>Ballet Comunitário</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Aulas práticas de dança clássica voltadas para o público infantil e infanto-juvenil:</p>
+        <ul class="popup-lista-itens">
+          <li>✨ Desenvolvimento da postura, flexibilidade e ritmo</li>
+          <li>Estímulo à disciplina, foco e sensibilidade artística</li>
+          <li>Apresentações culturais internas e eventos da associação</li>
+        </ul>
+        <div class="popup-footer-impacto impact-ballet">
+          <strong>Impacto Real:</strong>
+          <p>Acesso à cultura clássica de forma democrática, elevando a autoconfiança de jovens talentos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Escolinha de Futebol -->
+  <div id="popup-futebol" class="popup-overlay" onclick="fecharPopup('popup-futebol')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-futebol')">×</button>
+      <div class="popup-header bg-futebol">
+        <span class="popup-icon">⚽</span>
+        <h2>Escolinha de Futebol</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Treinos gerais de futebol para crianças e adolescentes no contraturno escolar:</p>
+        <ul class="popup-lista-itens">
+          <li>🏃 Prática esportiva regular e desenvolvimento motor</li>
+          <li>🤝 Ensino de valores fundamentais como respeito e espírito de equipe</li>
+          <li>Integração comunitária e lazer seguro</li>
+        </ul>
+        <div class="popup-footer-impacto impact-futebol">
+          <strong>Impacto Real:</strong>
+          <p>Afasta os jovens de situações de risco através do esporte, focando no desenvolvimento cidadão.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Pop-up Feira Solidária -->
+  <div id="popup-feira" class="popup-overlay" onclick="fecharPopup('popup-feira')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-feira')">×</button>
+      <div class="popup-header bg-feira">
+        <span class="popup-icon">🛍️</span>
+        <h2>Feira Solidária</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Eventos periódicos organizados para exposição, troca e venda de produtos locais:</p>
+        <ul class="popup-lista-itens">
+          <li>🧶 Espaço para artesãos e produtores da comunidade</li>
+          <li>🥗 Venda de alimentos caseiros e produtos sustentáveis</li>
+          <li>♻️ Estímulo ao consumo consciente e economia circular</li>
+        </ul>
+        <div class="popup-footer-impacto impact-feira">
+          <strong>Impacto Real:</strong>
+          <p>Fortalecimento da renda familiar local e comércio dentro do bairro.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Páscoa Solidária -->
+  <div id="popup-pascoa" class="popup-overlay" onclick="fecharPopup('popup-pascoa')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-pascoa')">×</button>
+      <div class="popup-header bg-pascoa">
+        <span class="popup-icon">🐰</span>
+        <h2>Páscoa Solidária</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Campanha anual voltada para trazer doçura e afeto na época pascoal:</p>
+        <ul class="popup-lista-itens">
+          <li>🍫 Arrecadação e distribuição de chocolates e ovos de Páscoa</li>
+          <li>🎨 Recreação infantil, gincanas e pintura facial</li>
+          <li>🍞 Apoio complementar com cestas básicas para famílias vulneráveis</li>
+        </ul>
+        <div class="popup-footer-impacto impact-pascoa">
+          <strong>Impacto Real:</strong>
+          <p>Garantia de momentos felizes para centenas de crianças carentes do nosso território.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Natal Solidário -->
+  <div id="popup-natal" class="popup-overlay" onclick="fecharPopup('popup-natal')">
+    <div class="popup-content" onclick="event.stopPropagation()">
+      <button class="popup-fechar" onclick="fecharPopup('popup-natal')">×</button>
+      <div class="popup-header bg-natal">
+        <span class="popup-icon">🎄</span>
+        <h2>Natal Solidário</h2>
+      </div>
+      <div class="popup-body">
+        <p class="popup-sub">Nossa maior mobilização de fim de ano para acolher a comunidade:</p>
+        <ul class="popup-lista-itens">
+          <li>🎁 Arrecadação de brinquedos novos e usados em bom estado</li>
+          <li>🧺 Montagem e entrega de ceias e cestas natalinas especiais</li>
+          <li>🎅 Festa comunitária com a presença simbólica do Papai Noel</li>
+        </ul>
+        <div class="popup-footer-impacto impact-natal">
+          <strong>Impacto Real:</strong>
+          <p>Encerramento do ano renovando os laços de esperança, solidariedade e dignidade comunitária.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+
+    <div class="footer-container">
+
+        <!-- LOGO -->
+        <div class="footer-box">
+            
+            <div class="logo">
+    <img src="images/Logo ACAEPA .png" alt="Logo ACAEPA">
+
+    <h2>ACAEPA</h2>
+
+</div>
+
+            <p>
+                Trabalhando pelo desenvolvimento
+                e bem-estar da nossa comunidade.
+            </p>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="footer-box">
+
+            <h3>Links Rápidos</h3>
+
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre </a>
+        <a href="projeto.html">Projetos</a>
+        <a href="depoimentos.html">Depoimentos</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="blog.html">Blog</a>
+        <a href="contatos.html">Contatos</a>
+
+        </div>
+
+        <!-- CONTATO -->
+
+        <div class="footer-box">
+
+            <h3>Contatos</h3>
+
+            <a href="mailto:Associacaoacaepa@gmail.com" target="_blank">✉ Associacaoacaepa@gmail.com</a>
+            <a href="https://wa.me/5511940630201" target="_blank">
+              ☎ 11 94063-0201</a>
+            <a href="https://www.google.com/maps/place/R.+Manoel+de+Abreu,+17+-+Jardim+Paulista,+Guarulhos+-+SP,+07083-160/@-23.4364194,-46.5524447,997m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94cef4f9aaaf7fa1:0x2af0790f1dca6c85!8m2!3d-23.4364194!4d-46.5524447!16s%2Fg%2F11rp2b4vpb?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">📍 Rua Manoel de Abreu,17 - Jardim Paulista-Guarulhos-SP</a>
+
+        </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ACAEPA. Todos os direitos reservados.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="js/projeto.js"></script>
+</body>
+</html>
